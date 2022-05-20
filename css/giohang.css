@@ -1,0 +1,45 @@
+.gia p{
+   text-align: right;
+}
+
+.dathang{
+    background-color: green;
+}
+.xoahang{
+    background-color: white;
+}
+.luachon{
+    width: calc(100% - 40px);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.luachon:hover{
+    background-color: blue;
+}
+.hang{
+    float: left;
+    width: calc(45% - 40px);
+    margin: 10px;
+    padding: 10px;
+}
+
+.thanhtoan{
+    float: right;
+    width: calc(100% - 40px);
+    margin: 10px;
+    padding: 10px;
+}
+.monhang{
+    width: 100%;
+    float: left;
+}
+.anhhang{
+    float: left;
+    width: calc(10% - 40px);
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
