@@ -27,6 +27,8 @@
 }
 .search{
     width: 350px;
+    height: 25px;
+    border-radius: 9px;
 }
 
 .toplink {
@@ -91,12 +93,17 @@ img{
     padding: 20px;
     border: 1px;
 
+
 }
-.slide{
+.op{
+    font-weight: bold;
+    font-size: 20px;
+}
+.myslides{
     float:left;
     border:1px;
-    margin: 10px;
-    padding: 20px;
+    margin: 12px;
+
 }
 .content2{
     margin-top: 200px;
@@ -116,6 +123,8 @@ img{
     border:1px;
     margin: 10px;
     padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
 
 }
 .footer{
@@ -152,4 +161,7 @@ img{
     margin-right: 25px;
     font-size: 18px;
 
+}
+.footer i {
+    color: #d02cd5;
 }
