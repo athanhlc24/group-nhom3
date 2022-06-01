@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <link rel="stylesheet" href="./libs/font/css/all.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="css/homecss.css"/>
 </head>
 <body>
-
 <header class="section header">
     <div class="container">
         <div class="nhom1">
@@ -17,12 +19,11 @@
                     <form>
                         <select name="thanhpho">
                             <option value="">Chọn tỉnh thành</option>
-                            <option value="hn" class="op">Hà Nội</option>
-                            <option value="sg" class="op">Sài Gòn</option>
-                            <option value="hp" class="op">Hải Phòng</option>
-                            <option value="dn" class="op">Đà Nẵng</option>
-                            <option value="bmt" class="op">Buôn Ma Thuột</option>
-
+                            <option value="hn">Hà Nội</option>
+                            <option value="sg">Sài Gòn</option>
+                            <option value="hp">Hải Phòng</option>
+                            <option value="dn">Đà Nẵng</option>
+                            <option value="bmt">Buôn Ma Thuột</option>
                         </select>
                     </form>
                 </li>
@@ -48,9 +49,9 @@
                     <form action="cacloaithit">
                         <select name="cacloaithit">
                             <option value="" >Chọn loại thịt</option>
-                            <option value="thitga" class="op">Thịt Gà</option>
-                            <option value="thitlon" class="op">Thịt Lợn</option>
-                            <option value="thitbo" class="op">Thịt Bò</option>
+                            <option value="thitga">Thịt Gà</option>
+                            <option value="thitlon">Thịt Lợn</option>
+                            <option value="thitbo">Thịt Bò</option>
                         </select>
                     </form>
                 </div>
@@ -59,9 +60,9 @@
                     <form action="cacloaica">
                         <select name="cacloaica">
                             <option value=""class="">Chọn loại cá</option>
-                            <option value="catram" class="op">Cá Trắm</option>
-                            <option value="cachep" class="op">Cá Chép</option>
-                            <option value="catroi" class="op">Cá Trôi</option>
+                            <option value="catram">Cá Trắm</option>
+                            <option value="cachep">Cá Chép</option>
+                            <option value="catroi">Cá Trôi</option>
                         </select>
                     </form>
                 </div>
@@ -70,9 +71,9 @@
                     <form action="cacloairau">
                         <select name="cacloairau">
                             <option value="">Chọn loại rau</option>
-                            <option value="raucai" class="op">Rau Cải</option>
-                            <option value="raubapcai" class="op">Rau Bắp Cải</option>
-                            <option value="raumuong" class="op">Rau Muống</option>
+                            <option value="raucai">Rau Cải</option>
+                            <option value="raubapcai">Rau Bắp Cải</option>
+                            <option value="catroi">Cá Trôi</option>
                         </select>
                     </form>
                 </div>
@@ -80,10 +81,10 @@
                 <div>
                     <form action="cacloaikhac">
                         <select name="cacloaikhac">
-                            <option value="" >Chọn loại khac</option>
-                            <option value="raumuong" class="op">Rau Muống</option>
-                            <option value="thitlonkho" class="op">Thịt Lợn Khô</option>
-                            <option value="khoga" class="op">Khô Gà</option>
+                            <option value="">Chọn loại khac</option>
+                            <option value="raumuong">Rau Muống</option>
+                            <option value="thitlonkho">Thịt Lợn Khô</option>
+                            <option value="khoga">Khô Gà</option>
                         </select>
                     </form>
                 </div>
@@ -93,11 +94,8 @@
     </div>
 </nav>
 <div class="section">
-    <div class="container ">
-        <a href="#"><img class="myslides" src="./img/slide/img1.jpg"/></a>
-        <a href="#"><img class="myslides" src="./img/slide/img2.jpg"/></a>
-        <a href="#"> <img class="myslides" src="./img/slide/img3.jpg"/></a>
-        <a href="#"> <img class="myslides" src="./img/slide/img4.jpg"/></a>
+    <div class="container">
+        <p class="slide">Slide ở vị trí này</p>
     </div>
 </div>
 <div class="section">
@@ -125,19 +123,15 @@
                     <li><a href="#">Hướng dẫn mua hàng</a></li>
                     <li><a href="#">Chính sách đổi trả</a></li>
                     <li><a href="#">Hỏi đáp</a></li>
-
                 </ul>
             </div>
         </div>
 
         <div class="footer-phai">
-            <div><a href="#"><p><b>Đổi trả sản phẩm trong vòng 2 ngày</b></p></a></div>
+            <div><a href="#"><p>Đổi trả sản phẩm trong vòng 2 ngày</p></a></div>
             <div><a href="#"><p>Danh sách các chuỗi cửa hàng</p></a></div>
-            <div><i class="fa-brands fa-facebook"></i></div>
         </div>
     </div>
 </footer>
-
-<script type="text/javascript" src="js/javascript1.js"></script>
 </body>
 </html>

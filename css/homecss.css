@@ -55,9 +55,10 @@
 body{
     background-color: #fafafa;
     font-size: 14px;
-    font-family: "Times New Roman";
-    font-weight: normal;
+    font-family: "Macondo";
+    font-weight: 400;
     text-align: left;
+    color: burlywood;
 }
 a{
     text-decoration: none;
@@ -66,6 +67,37 @@ a{
 
 img{
     max-width: 100%;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.columns-right .content{
+    float: left;
+    width: 66.67%;
+}
+.columns-right .sidebar{
+    float: right;
+    width: 33.33%;
+}
+.columns-left .content{
+    float: right;
+    width: 66.67%;
+}
+.columns-left .sidebar{
+    float: left;
+    width: 33.33%;
+}
+.one-column .content{
+    float: left;
+    width: 100%;
+}
+.one-column .sidebar{
+    display: none;
 }
 .container{
     width: 1200px;
