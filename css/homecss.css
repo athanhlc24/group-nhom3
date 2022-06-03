@@ -58,7 +58,7 @@ body{
     font-family: "Macondo";
     font-weight: 400;
     text-align: left;
-    color: burlywood;
+    color: #333333;
 }
 a{
     text-decoration: none;
@@ -131,11 +131,8 @@ img{
     font-weight: bold;
     font-size: 20px;
 }
-.myslides{
-    float:left;
-    border:1px;
-    margin: 12px;
-
+.my-slide{
+    margin-top: 20px;
 }
 .content2{
     margin-top: 200px;
@@ -195,5 +192,6 @@ img{
 
 }
 .footer i {
-    color: #d02cd5;
+    color: #c9a448;
+    font-size: 35px;
 }
