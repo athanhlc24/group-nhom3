@@ -5,12 +5,13 @@
     <title>Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet"/>
     <!-- Latest compiled and minified CSS BOOSTRAP-->
     <link rel="stylesheet" href="libs/font/css/all.css"/>
     <link rel="stylesheet" href="libs/nivoslider/default/default.css">
     <link rel="stylesheet" href="libs/nivoslider/nivo-slider.css">
     <link rel="stylesheet" href="css/homecss.css"/>
+    <link rel="stylesheet" href="css/navCSS.css">
+
 </head>
 <body>
 <header class="section header">
@@ -46,52 +47,39 @@
 <nav>
     <div class="section nav">
         <div class="container">
-            <div class="menu">
-
-                <div>
-                    <form action="cacloaithit">
-                        <select name="cacloaithit">
-                            <option value="" >Chọn loại thịt</option>
-                            <option value="thitga">Thịt Gà</option>
-                            <option value="thitlon">Thịt Lợn</option>
-                            <option value="thitbo">Thịt Bò</option>
-                        </select>
-                    </form>
-                </div>
-
-                <div>
-                    <form action="cacloaica">
-                        <select name="cacloaica">
-                            <option value=""class="">Chọn loại cá</option>
-                            <option value="catram">Cá Trắm</option>
-                            <option value="cachep">Cá Chép</option>
-                            <option value="catroi">Cá Trôi</option>
-                        </select>
-                    </form>
-                </div>
-
-                <div>
-                    <form action="cacloairau">
-                        <select name="cacloairau">
-                            <option value="">Chọn loại rau</option>
-                            <option value="raucai">Rau Cải</option>
-                            <option value="raubapcai">Rau Bắp Cải</option>
-                            <option value="raucan">Rau Cần</option>
-                        </select>
-                    </form>
-                </div>
-
-                <div>
-                    <form action="cacloaikhac">
-                        <select name="cacloaikhac">
-                            <option value="">Chọn loại khac</option>
-                            <option value="raumuong">Rau Muống</option>
-                            <option value="thitlonkho">Thịt Lợn Khô</option>
-                            <option value="khoga">Khô Gà</option>
-                        </select>
-                    </form>
-                </div>
-
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-cloud-meatball"></i> Các Loại Thịt</a>
+                            <ul>
+                                <li><a href="#" >Thịt Gà</a></li>
+                                <li><a href="#">Thịt Lợn</a></li>
+                                <li><a href="#">Thịt Bò</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class="fa-solid fa-fish"></i> Các Loại Cá</a>
+                            <ul>
+                                <li><a href="#">Cá Trắm</a></li>
+                                <li><a href="#">Cá Chép</a></li>
+                                <li><a href="#">Cá Trôi</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class="fa-solid fa-pepper-hot"></i> Các Loại Rau</a>
+                            <ul>
+                                <li><a href="#" >Rau Cải</a></li>
+                                <li><a href="#">Rau Bắp Cả</a></li>
+                                <li><a href="#">Rau Cần</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class="fa-solid fa-cannabis"></i> Các Loại Khác</a>
+                            <ul>
+                                <li><a href="#">Rau Muống</a></li>
+                                <li><a href="#">Thịt Lợn Khô</a></li>
+                                <li><a href="#">Khô Gà</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            <div>
             </div>
         </div>
     </div>
