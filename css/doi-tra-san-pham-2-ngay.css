@@ -1,0 +1,15 @@
+.doi-tra{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.doi-tra ul li{
+    text-indent: 20px;
+    list-style: none;
+}
+.style-doi-tra{
+    background-color: #aeedef;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+}
