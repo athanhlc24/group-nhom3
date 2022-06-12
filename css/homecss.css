@@ -147,8 +147,13 @@ img{
     color: #ffff;
 
 }
+.mar-quee{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #4CAF50;
+}
 .footer{
-    margin-top: 50px;
+    margin-top: 30px;
     background-color: #008040;
     border-bottom: 1px;
     padding: 20px 0;
