@@ -1,20 +1,4 @@
-header {
-    background-color: #008040;
-    padding: 40px;
-    color: #008040;
-    border-width: 1px;
-    border-style: solid;
-    position: relative;
-}
 
-footer {
-    background-color: #008040;
-    padding: 60px;
-    color: #008040;
-    border-width: 1px;
-    border-style: solid;
-    position: relative;
-}
 .flex-parent {
     display: flex;
     justify-content: center;
@@ -52,7 +36,7 @@ footer {
     flex-direction: column;
 }
 
-h2 {
+h3{
     font-size: 1.5rem;
     font-weight: 700;
     margin: 37px 51px 0 5px;

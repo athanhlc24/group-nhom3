@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trang SP 2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <!-- Latest compiled and minified CSS BOOSTRAP-->
+  <link rel="stylesheet" href="libs/font/css/all.css"/>
+  <link rel="stylesheet" href="css/homecss.css"/>
+  <link rel="stylesheet" href="css/navCSS.css">
+  <link rel="stylesheet" href="css/productPage.css">
+  <script src="js/script.js"></script>
+
+</head>
+<body>
+<header class="section header">
+  <div class="container">
+    <div class="nhom1">
+      <ul>
+        <li><a class="lo-go-link" href="home.html"><h2>Thực Phẩm Sạch</h2></a></li>
+        <li>
+          <form>
+            <select name="thanhpho">
+              <option value="">Chọn tỉnh thành</option>
+              <option value="hn">Hà Nội</option>
+              <option value="sg">Sài Gòn</option>
+              <option value="hp">Hải Phòng</option>
+              <option value="dn">Đà Nẵng</option>
+              <option value="bmt">Buôn Ma Thuột</option>
+            </select>
+          </form>
+        </li>
+        <li><input type="search" class="search"  placeholder="Tìm kiếm sản phẩm"/></li>
+      </ul>
+    </div>
+    <div class="toplink">
+      <ul>
+        <li><a href="#">Lịch sử đơn hàng</a></li>
+        <li><a href="giohang.html">Giỏ hàng</a></li>
+        <li><a href="#">Đăng kí</a></li>
+        <li><a href="#">Đăng nhập</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<nav>
+  <div class="section nav">
+    <div class="container">
+      <nav class="menu">
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-cloud-meatball"></i> Các Loại Thịt</a>
+            <ul>
+              <li><a href="#" >Thịt Gà</a></li>
+              <li><a href="#">Thịt Lợn</a></li>
+              <li><a href="#">Thịt Bò</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa-solid fa-fish"></i> Các Loại Cá</a>
+            <ul>
+              <li><a href="#">Cá Trắm</a></li>
+              <li><a href="#">Cá Chép</a></li>
+              <li><a href="#">Cá Trôi</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa-solid fa-pepper-hot"></i> Các Loại Rau</a>
+            <ul>
+              <li><a href="#" >Rau Cải</a></li>
+              <li><a href="#">Rau Bắp Cả</a></li>
+              <li><a href="#">Rau Cần</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa-solid fa-cannabis"></i> Các Loại Khác</a>
+            <ul>
+              <li><a href="#">Rau Muống</a></li>
+              <li><a href="#">Thịt Lợn Khô</a></li>
+              <li><a href="#">Khô Gà</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="section">
+  <div class="container">
+    <div class="flex-parent">
+
+      <div class="div1">
+        <img id="anh_san_pham" src="img/images/vai-bo-uc-tuoi-hut-chan-khong-khay-250g.jpg" width="446" height="334">
+        <script>
+          magnify("anh_san_pham", 3);
+        </script>
+      </div>
+
+      <div class="div2">
+        <h3 class="product_name">Vai bò Úc tươi Trung Đồng hút chân không khay 250g</h3> <br>
+        <p class="price">105.000 VNĐ</p> <br>
+        <p class="status">Trạng thái: còn hàng</p> <br>
+        <form class="choose_quantity">
+          <label for="quantity">Số lượng:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="99">
+        </form>
+        <div class="button-group">
+          <button class="button1" onclick= "clickMe()">THÊM VÀO GIỎ HÀNG</button>
+          <button class="button2">MUA NGAY</button>
+        </div>
+      </div>
+
+    </div>
+
+    <span>THÔNG TIN SẢN PHẨM</span>
+    <p id="product_info">Vai bò Úc tươi hút chân không khay 250g là phần thịt không xương lớn nhất ở ức trước con bò, phần thịt này mềm và đan xen các vân mỡ thơm ngon, mềm mọng. Phần thịt vai bò có thể nói là một nguyên liệu xuất sắc cho món beefsteak, bò nướng,... với phần thịt mọng nước thơm ngon <br>
+      Vai bò Úc trong tiếng Anh gọi là Chuck Roll, phần thịt này không có xương và có thể nói là phần thịt lớn và nhiều thịt nhất của ức trước bò. Vai bò Úc được ưa chuộng bởi nó có thể chế biến thành rất nhiều món ăn thơm ngon nhờ phần thịt mềm, đan cùng các vân mỡ, mềm và mọng vô cùng.</p>
+    <li id="weight"> Khối lượng: 250gr</li>
+    <span>Giá trị dinh dưỡng của thịt bò</span>
+    <p id="product_info">Thịt bò nhập khẩu được kiểm soát chất lượng vô cùng nghiêm ngặt, nhờ quy trình nuôi chuẩn và cho bò thường xuyên vận động. Thịt bò được nuôi đến độ tuổi chính xác mới đem đi giết mổ nên đảm bảo mang đến nguồn dinh dưỡng dồi dào vô cùng, mang lại các nhóm chất cần thiết cho cơ thể. Bò được vận động nên các chất béo bão hoà ít, giảm luôn cholesterol có hại nhờ đó mà bạn có thể hoàn toàn yên tâm sử dụng.</p>
+  </div>
+</div>
+
+<footer class="section footer">
+  <div class="container">
+    <div class="footer-trai">
+      <div><p>Đặt online giao hàng đúng nhà</p></div>
+      <div><p>Tổng đài hỗ trợ: 0329.226.456</p></div>
+      <div>
+        <ul>
+          <li><a href="#">Chính sách khách hàng</a></li>
+          <li><a href="#">Hướng dẫn mua hàng</a></li>
+          <li><a href="#">Chính sách đổi trả</a></li>
+          <li><a href="#">Hỏi đáp</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-phai">
+      <div><a href="doi-tra-san-pham-2-ngay.html"><p>Đổi trả sản phẩm trong vòng 2 ngày</p></a></div>
+      <div><a href="#"><p>Danh sách các chuỗi cửa hàng</p></a></div>
+      <div><a href="#"><p>Xem thêm về chúng tôi qua các kênh</p></a></div>
+      <div class="my-icon">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"> <i class="fa-brands fa-facebook-messenger"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="libs/jQuery/jquery3.6.0.js"></script>
+<!-- Latest compiled and minified JavaScript BOOSTRAP-->
+
+
+</body>
+</html>
