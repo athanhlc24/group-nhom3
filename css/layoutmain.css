@@ -7,9 +7,16 @@ img {
 }
 .xapXep{
     padding-bottom: 50px;
-
+}
+.sidebar{
+    float: right;
 }
 .aaa{
+    text-align: right;
+    font-size: 20px;
+    padding-bottom: 50px;
     width: 50%;
 }
+
+
 
