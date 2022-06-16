@@ -1,12 +1,15 @@
 .huongdan{
     font-size: 18px;
 }
-.huongdan p,h2,h4,h3,li,img{
+.huongdan p,h2,h4,h3,img{
     padding-bottom: 10px;
 }
-.huongdan li{
+.huongdan > li{
     list-style: inside;
 }
 .huongdan ol li{
     list-style-type: decimal;
+}
+.huongdan li{
+    padding-bottom: 10px;
 }
